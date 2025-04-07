@@ -1,0 +1,37 @@
+
+@media (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+
+ 
+}
+
+@media (max-width:992px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px){
+    html{
+        font-size: 14px;
+    }
+    .banner .banner-img {
+        width: 100%;
+        aspect-ratio: 15/19;
+        object-fit: cover;
+        border: 0.25rem solid var(--white-color);
+        border-radius: 0.75rem;
+        transform: none;
+       
+    }
+
+   
+}
