@@ -433,3 +433,8 @@ transform: scale(1.05);
 }
    
 
+.pdf-viewer {
+    height: 100vh;
+    width: 100%;
+    border: none;
+  }
