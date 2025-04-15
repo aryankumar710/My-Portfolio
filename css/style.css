@@ -33,7 +33,7 @@ ol {
     --primary-color: #0b0b0b;
     --third-color: #F5F5F5;
     --white-color: #fff;
-    --text-color: #666666;
+    --text-color: #4b4b4b;
     --black-color: #121212;
     --support-color:#FF6A00;
     --hover-color:#ff5900;
@@ -71,7 +71,7 @@ body {
 
 h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 10.4rem;
+    font-size: 10.6rem;
     font-weight: 800;
     margin-bottom: 0;
 
@@ -313,11 +313,11 @@ transform: scale(1.05);
 }
 
  .banner-casestudy .container{
-    margin-top: 7.5rem;   
+    margin-top: 12rem;   
  }
 
 .banner .banner-img {
-    width: 55%;
+    width: 65%;
     aspect-ratio: 15/19;
     object-fit: cover;
     border: 0.25rem solid var(--white-color);
