@@ -42,14 +42,14 @@ ol {
 }
 
 html {
-    background: #f4f3ed;
+    background:var(--white-color);
     scroll-behavior: smooth;
     font-size: 16px;
     overflow-x: hidden;
 }
 
 body {
-   background: #f4f3ed;
+    background:var(--white-color);
     overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f4f3ed;
+    background:var(--white-color);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -96,7 +96,7 @@ h2 {
 
 h3 {
     font-family: "Poppins", sans-serif;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0;
     line-height: 2.5rem;
@@ -105,7 +105,7 @@ h3 {
 h4 {
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0;
     line-height: 140%;
 }
@@ -130,7 +130,7 @@ h6 {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     color: var(--text-color);
     font-weight: 400;
@@ -168,7 +168,6 @@ p {
 }
 
 .btn-outline-primary {
-
     color: var(--support-color);
     border:var(--support-color) solid 0.125rem;
     padding: 0.75rem 1.25rem;
@@ -188,7 +187,7 @@ transform: scale(1.05);
 .navbar {
     transition: all 0.4s ease-in-out;
     padding: 1rem 0;
-    background: #f4f3ed;
+    background:var(--white-color);
 }
 
 .navbar-toggler{
@@ -296,8 +295,8 @@ transform: scale(1.05);
 
 
 .wrapper {
-    padding-top: 3.25rem;
-    padding-bottom: 3.25rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
 }
 
 
@@ -317,7 +316,7 @@ transform: scale(1.05);
 }
 
  .banner-casestudy .container{
-    margin-top: 12rem;   
+    margin-top: 10rem;   
  }
 
 .banner .banner-img {
@@ -358,6 +357,7 @@ transform: scale(1.05);
     background-color: var(--white-color);
     border-radius: 0.5rem;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .casestudycard:hover{
@@ -434,6 +434,10 @@ transform: scale(1.05);
 
 .challenge h5{
     color: var(--text-color);
+}
+
+.challenge img{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
    
 
