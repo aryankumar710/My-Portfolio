@@ -42,14 +42,14 @@ ol {
 }
 
 html {
-    background:var(--white-color);
+    background:var(--third-color);
     scroll-behavior: smooth;
     font-size: 16px;
     overflow-x: hidden;
 }
 
 body {
-    background:var(--white-color);
+    background:var(--third-color);
     overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background:var(--white-color);
+    background:var(--third-color);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -187,7 +187,7 @@ transform: scale(1.05);
 .navbar {
     transition: all 0.4s ease-in-out;
     padding: 1rem 0;
-    background:var(--third-color);
+    background:var(--white-color);
 }
 
 .navbar-toggler{
