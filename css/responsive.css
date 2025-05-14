@@ -32,6 +32,9 @@
         transform: none;
        
     }
+    .banner .container{
+    margin-top: 2.5rem;
+}
 
    
 }

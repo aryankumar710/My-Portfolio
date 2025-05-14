@@ -184,6 +184,8 @@ border-radius: 0;
 transform: scale(1.05);
 }
 
+
+
 .navbar {
     transition: all 0.4s ease-in-out;
     padding: 1rem 0;
@@ -312,7 +314,7 @@ transform: scale(1.05);
 }
 
 .banner .container{
-    margin-top: 7.5rem;
+    margin-top: 5rem;
 }
 
  .banner-casestudy .container{
