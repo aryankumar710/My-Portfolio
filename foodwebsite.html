@@ -111,8 +111,8 @@
 
     <section class="banner-casestudy">
         <div class="container">
-            <div class="row justify-content-between align-items-start px-md-5  px-3">
-                <div class="col-md-6">
+            <div class="row justify-content-between align-items-start px-md-5  px-3 ">
+                <div class="col-md-6 reveal">
                     <h3>Food Website</h3>
                     <hr>
                     <div class="d-flex flex-column gap-2">
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 pt-5 pt-md-0">
+                <div class="col-md-5 pt-5 pt-md-0 reveal">
                     <img src="images/Food Website.png" alt="">
                 </div>
 
@@ -140,8 +140,8 @@
         <div class="container">
             <div class="row">
                 <div class="text-justify px-md-5  px-3">
-                    <h3 class="mb-4">About Project</h3>
-                    <p class="mb-4">This project gave me the opportunity to apply my Bootstrap skills, which I had
+                    <h3 class="mb-4 reveal">About Project</h3>
+                    <p class="mb-4 reveal">This project gave me the opportunity to apply my Bootstrap skills, which I had
                         recently picked up through tutorials.
                         I explored various Bootstrap utilities like d-flex, alignment classes, and also experimented
                         with layout techniques to improve responsiveness and structure.
@@ -151,7 +151,7 @@
                         different screen sizes.
                         Overall, this project helped me understand how to build more adaptive and visually dynamic
                         websites using Bootstrap efficiently.</p>
-                    <video class="w-100 " controls>
+                    <video class="w-100 reveal" controls>
                         <source src="videos/10.12.2024_01.46.08_REC.mp4" type="video/mp4">
 
                     </video>
@@ -166,7 +166,7 @@
         <div class="container">
             <div class="row">
                 <!-- About Section -->
-                <h1 class="text-center mt-5"> Let's Create</h1>
+                <h1 class="text-center mt-5 reveal"> Let's Create</h1>
 
                 <!-- Divider Line -->
                 <hr class="my-4 text-white" />
@@ -185,6 +185,17 @@
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"></script>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 300
+    });
+  </script>
 </body>
 
 </html>

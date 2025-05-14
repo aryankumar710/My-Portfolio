@@ -109,7 +109,7 @@
     <section class="banner-casestudy">
         <div class="container">
             <div class="row justify-content-between align-items-start px-md-5  px-3 ">
-                <div class="col-md-6">
+                <div class="col-md-6 reveal">
                     <h3>Pokemon Website</h3>
                     <hr>
                     <div class="d-flex flex-column gap-2">
@@ -122,7 +122,7 @@
                       
                     </div>
                 </div>
-                <div class="col-md-5 pt-5 pt-md-0">
+                <div class="col-md-5 pt-5 pt-md-0 reveal">
                     <img src="images/Pokemon website.png" alt="">
                 </div>
 
@@ -134,8 +134,8 @@
         <div class="container">
             <div class="row">
                 <div class="text-justify px-md-5  px-3">
-                    <h3 class="mb-4">About Project</h3>
-                    <p class="mb-4">A fun and interactive platform that displays Pokémon using beautifully designed cards with real-time search functionality. 
+                    <h3 class="mb-4 reveal">About Project</h3>
+                    <p class="mb-4 reveal">A fun and interactive platform that displays Pokémon using beautifully designed cards with real-time search functionality. 
                         This project helped me level up my skills in API integration, state management, and efficient data fetching.
                         Used async/await with Promise.all to fetch nested Pokémon data efficiently. 
                             Ensured all data appears only after full resolution for a smooth load experience.
@@ -143,7 +143,7 @@
                             Managed loading spinners and error messages seamlessly to ensure a smooth UX.
                           Maintained clean data flow between components using props for modular and reusable code.
                             Implemented real-time search using filter() to match Pokémon names as users type — fast, responsive, and intuitive.</p>
-                    <video class="w-100 " controls>
+                    <video class="w-100 reveal" controls>
                         <source src="videos/Vite + React - Google Chrome 2025-04-06 21-50-24.mp4" type="video/mp4">
                     
                       </video>
@@ -159,7 +159,7 @@
         <div class="container">
             <div class="row">
                 <!-- About Section -->
-                <h1 class="text-center mt-5"> Let's Create</h1>
+                <h1 class="text-center mt-5 reveal"> Let's Create</h1>
 
                 <!-- Divider Line -->
                 <hr class="my-4 text-white" />
@@ -178,6 +178,17 @@
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"></script>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 300
+    });
+  </script>
 </body>
 
 </html>

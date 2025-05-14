@@ -105,20 +105,20 @@
         <div class="container">
             <div class="row">
 
-                <h3 class=" text-center ">My Resume</h3>
+                <h3 class=" text-center reveal">My Resume</h3>
                 <div class="text-center mb-4">
-                    <a href="files/Aryan Kumar UIUX Design Resume.pdf" class="btn btn-sm btn-outline-primary mt-5" download>
+                    <a href="files/Aryan Kumar UIUX Design Resume.pdf" class="btn btn-sm btn-outline-primary mt-5 reveal" download>
                         <i class="bi bi-file-earmark-arrow-down"></i> Download Resume
                     </a>
                 </div>
 
-                <div class="text-justify px-md-5  px-3 ">
+                <div class="text-justify px-md-5  px-3 reveal">
                     <img src="images/MyResume.png" alt="Aryan Kumar"
                         style="width: 100%; height: auto; object-fit: cover;  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;" />
                 </div>
 
                 <div class="text-center ">
-                    <a href="files/Aryan Kumar UIUX Design Resume.pdf" class="btn btn-sm btn-outline-primary mt-4" download>
+                    <a href="files/Aryan Kumar UIUX Design Resume.pdf" class="btn btn-sm btn-outline-primary mt-4 reveal" download>
                         <i class="bi bi-file-earmark-arrow-down"></i> Download Resume
                     </a>
                 </div>
@@ -138,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <!-- About Section -->
-                <h1 class="text-center mt-5"> Let's Create</h1>
+                <h1 class="text-center mt-5 reveal"> Let's Create</h1>
 
                 <!-- Divider Line -->
                 <hr class="my-4 text-white" />
@@ -157,6 +157,17 @@
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"></script>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 300
+    });
+  </script>
 </body>
 
 </html>
