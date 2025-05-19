@@ -36,51 +36,50 @@
 
     <!--Header-->
     <header>
+        <div class="transparent-header text-center container">
+            <nav class="navbar navbar-expand-lg  navbar-dark floating-header">
+                <div class="container-fluid pe-0">
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 5.625V7.5H0V5.625H15ZM0 13.125H30V15H0V13.125ZM15 22.5V20.625H30V22.5H15Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                        <button type="button" class="btn btn-sm btn-primary me-2 d-md-none" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Get in Touch
+                        </button>
+                    </div>
 
-        <nav class="navbar navbar-expand-lg shadow-sm navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Portfolio</a>
-                <div class="d-flex flex-row-reverse ">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 5.625V7.5H0V5.625H15ZM0 13.125H30V15H0V13.125ZM15 22.5V20.625H30V22.5H15Z"
-                                fill="black" />
-                        </svg>
-
-                    </button>
-                    <button type="button" class="btn btn-sm btn-primary me-2 d-md-none" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">
-                        Get in Touch
-                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://drive.google.com/file/d/1KDGukOQOBW16U2-x-fJlaYgwEJQCb7x2/view?usp=sharing">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://www.linkedin.com/in/aryan-kumar-660193280">Linkedin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.behance.net/aryankumar251">Behance</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-sm btn-primary ms-4 d-none d-md-block"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Get in Touch
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/aryan-kumar-660193280">Linkedin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.behance.net/aryankumar251">Behance</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/uiux_designer_aryankumar/">Instagram</a>
-                        </li> -->
-                        <li>
-                            <button type="button" class="btn btn-sm btn-primary ms-4 d-none d-md-block" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Get in Touch
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
-
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -166,7 +165,7 @@
         <div class="container">
             <div class="row">
                 <!-- About Section -->
-                <h1 class="text-center mt-5 reveal"> Let's Create</h1>
+                <h1 class="text-center mt-5 reveal">Let’s Turn Ideas Into Experiences</h1>
 
                 <!-- Divider Line -->
                 <hr class="my-4 text-white" />
@@ -190,10 +189,10 @@
   <script>
     ScrollReveal().reveal('.reveal', {
       distance: '50px',
-      duration: 1000,
+      duration: 700,
       easing: 'ease-out',
       origin: 'bottom',
-      interval: 300
+      interval: 250
     });
   </script>
 </body>

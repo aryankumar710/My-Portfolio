@@ -1,29 +1,103 @@
-
-@media (max-width:1200px){
-    html{
+@media (max-width:1200px) {
+    html {
         font-size: 16px;
     }
 
- 
+    .floating-header {
+        position: fixed;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        top: 1rem;
+        /* Margin from top */
+        left: 4rem;
+        /* Margin from left */
+        right: 4rem;
+        /* Margin from right */
+        z-index: 1030;
+        /* Ensure it floats above content */
+        border-radius: 80px;
+
+        /* or your preferred navbar bg */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.75);
+        /* or any base color with low opacity */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        /* for Safari support */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* subtle border */
+    }
+
+
+
 }
 
-@media (max-width:992px){
-    html{
+@media (max-width:992px) {
+    html {
         font-size: 15px;
     }
+
+    .floating-header {
+        position: fixed;
+        top: 1rem;
+        /* Margin from top */
+        left: 3rem;
+        /* Margin from left */
+        right: 3rem;
+        /* Margin from right */
+        z-index: 1030;
+        /* Ensure it floats above content */
+        border-radius: 70px;
+
+        /* or your preferred navbar bg */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.75);
+        /* or any base color with low opacity */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        /* for Safari support */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* subtle border */
+    }
+
 }
 
-@media (max-width:768px){
-    html{
+@media (max-width:768px) {
+    html {
         font-size: 14px;
     }
+
+    .floating-header {
+        position: fixed;
+        top: 1rem;
+        /* Margin from top */
+        left: 2rem;
+        /* Margin from left */
+        right: 2rem;
+        /* Margin from right */
+        z-index: 1030;
+        /* Ensure it floats above content */
+        border-radius: 60px;
+
+        /* or your preferred navbar bg */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.75);
+        /* or any base color with low opacity */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        /* for Safari support */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* subtle border */
+    }
+
 }
 
-@media (max-width:576px){
-    html{
+@media (max-width:576px) {
+    html {
         font-size: 14px;
     }
-    .banner .banner-img {
+
+    /* .banner .banner-img {
         width: 100%;
         aspect-ratio: 15/19;
         object-fit: cover;
@@ -31,12 +105,33 @@
         border-radius: 0.75rem;
         transform: none;
        
-    }
-    .banner .container{
+    } */
+    /* .banner .container{
     margin-top: 2.5rem;
-}
+} */
 
- 
 
-   
+    .floating-header {
+        position: fixed;
+        top: 0.5rem;
+        /* Margin from top */
+        left: 0.5rem;
+        /* Margin from left */
+        right: 0.5rem;
+        /* Margin from right */
+        z-index: 1030;
+        /* Ensure it floats above content */
+        border-radius: 50px;
+
+        /* or your preferred navbar bg */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.75);
+        /* or any base color with low opacity */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        /* for Safari support */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        /* subtle border */
+    }
+
 }
